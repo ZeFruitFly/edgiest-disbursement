@@ -10,10 +10,13 @@ const port = 8080
 app.get('/world', function (req, res){
 	var id = req.query.id;
 	console.log(id);
+	res.status(200);
+	res.send(id);
 })
 
 app.get('/', (req, res) => {  
-  res.send("Ello");
+	res.status(200);
+	res.send("Ello");
 })
 
-app.listen(port)
+app.listen(settings.Port);

@@ -1,4 +1,5 @@
 {
-	"media_folder" : ".client/web/media/"
-	"web_root" : "./client/web/"
+	"media_folder" : ".client/web/media/",
+	"web_root" : "./client/web/",
+	"Port" : 8080
 }
