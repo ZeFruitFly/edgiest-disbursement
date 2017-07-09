@@ -25,7 +25,12 @@
           s.parentNode.insertBefore(ga, s);
       })();
 	</script>
-	<link rel="stylesheet" href="http://www.syncedonline.com/gwt/frame/gwt-utils.css"><link rel="stylesheet" href="/themed/css/global.css?themeId=0"><link rel="stylesheet" href="http://www.syncedonline.com/gwt/frame/gwt.css"><link rel="stylesheet" href="/themed/css/frame.css?themeId=0"><link rel="stylesheet" href="/custom.css?themeId=0"></head>
+	<link rel="stylesheet" href="http://www.syncedonline.com/gwt/frame/gwt-utils.css">
+	<link rel="stylesheet" href="/themed/css/global.css?themeId=0">
+	<link rel="stylesheet" href="http://www.syncedonline.com/gwt/frame/gwt.css">
+	<link rel="stylesheet" href="/themed/css/frame.css?themeId=0">
+	<link rel="stylesheet" href="/custom.css?themeId=0">
+	</head>
 
 	<body class="standardPage">
 	<div id="loading" class="loading" aria-hidden="true" style="display: none;"></div>
@@ -136,7 +141,7 @@
 	<input type="text" tabindex="-1" role="presentation" style="opacity: 0; height: 1px; width: 1px; z-index: -1; overflow: hidden; position: absolute;">
 	<div class="Level">
 	<img src="/images/header/symbol_level.png" class="gwt-Image fpFloatLeft">
-	<div class="gwt-Label fpFloatLeft">1</div>
+	<div class="gwt-Label fpFloatLeft" id="NavLevel">1</div>
 	<div class="fpClear">
 	</div>
 	</div>
@@ -198,6 +203,49 @@
 	<!-- SWF object went here -->
 	</div>
 	</div>
+	<div id="NavFrame" style="width: 700px; height: 259px; position: absolute; left: 660px; top: 50px; display: none;"><table class="pageTitle" cellpadding="0" cellspacing="0">
+	<colgroup>
+	<col>
+	</colgroup>
+	<tbody>
+	<tr>
+	<td>
+	<table cellspacing="0" cellpadding="0">
+	<tbody>
+	<tr>
+	<td align="left" style="vertical-align: top;">
+	<div class="gwt-Label" style="width: 7px; height: 1px;">
+	</div>
+	</td>
+	<td align="left" style="vertical-align: middle;">
+	<div tabindex="0" class="BackButton actionLabel BackButton-up" role="button" aria-pressed="false"><input type="text" tabindex="-1" role="presentation" style="opacity: 0; height: 1px; width: 1px; z-index: -1; overflow: hidden; position: absolute;">
+	<div>
+	</div>
+	</div>
+	</td>
+	<td align="left" style="vertical-align: top;">
+	<div class="gwt-Label" style="width: 7px; height: 1px;">
+	</div>
+	</td>
+	<td align="left" style="vertical-align: top;">
+	<div class="Title" id="NavFrameTitle"> </div>
+	</td></tr>
+	</tbody>
+	</table>
+	</td>
+	<td style="vertical-align: bottom;">
+	</td>
+	<td colspan="1" class="SubNavi">
+	<div id="UiClose">
+	<img src="/images/ui/close.png" class="gwt-Image actionLabel Close" >
+	</div>
+	</td>
+	</tr>
+	</tbody>
+	</table>
+	<iframe class="pageIFrame" src="/gwt/0/stuff/" name="PageFrame_MAIN" id="PageFrame_MAIN" frameborder="0" style="width: 700px; height: 235px;">
+	</iframe>
+	</div>
 	</div>
 
 	<iframe id="__gwt_historyFrame" style="width:0px;height:0px;border:0px;display:none">
@@ -205,7 +253,7 @@
 	<script type="text/javascript" src="/gwt/frame/frame.nocache.js">
 	</script>
 	<script defer="defer">
-	frame.onInjectionDone('frame')
+	//frame.onInjectionDone('frame')
 	</script>
 	<script type="text/javascript" src="/js/swfobject.js">
 	</script>
