@@ -1,0 +1,837 @@
+/**
+ * CSS styles for the group interfaces.
+ */
+
+/* ------------------------------------
+   SINGLE GROUP DETAIL
+-------------------------------------*/
+
+.groupDetail {
+  background: #61abd0 url(/images/whirled/bg_gradient_long_blue.png) repeat-x;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 100%;
+  min-height: 100%;
+}
+.groupDetail table {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.groupDetail .MainDetails .TitleBox {
+  margin: 9px;
+  width: 290px;
+}
+.groupDetail .MainDetails .TitleBox,
+.groupDetail .MainDetails .TitleBox a {
+  color: #3f82af;
+}
+
+.groupDetail .MainDetails .TitleBox .Logo {
+  float: left;
+  width: 40px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.groupDetail .MainDetails .TitleBox .Name {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #24598d;
+  width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.groupDetail .MainDetails .TitleBox .Established {
+  clear: both;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 260px;
+  margin-bottom: 2px;
+  font-style: italic;
+}
+
+.groupDetail .MainDetails .EnterButton {
+  margin: 0 6px 0 10px;
+}
+
+.groupDetail .MainDetails .DiscussionsButton {
+  margin: 0 6px 0 0;
+}
+
+.groupDetail .MainDetails .MedalsButton {
+  margin: 0 10px 0 0;
+  font-size: 14px;
+}
+
+.groupDetail .MainDetails .MedalsButton .html-face {
+  margin-top: 2px;
+}
+
+.groupDetail .MainDetails .Actions {
+  margin: 10px;
+  color: #5384ad;
+}
+
+.groupDetail .MainDetails .Actions .actionLabel {
+  color: #ffffff;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+}
+
+.groupDetail .MainDetails .Actions .BasicActions .actionLabel {
+  width: 135px;
+  border-bottom: solid #5384ad 1px;
+}
+
+.groupDetail .MainDetails .Actions .ManagerActions {
+  width: auto;
+  border-bottom: solid #5384ad 1px;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+}
+
+.groupDetail .MainDetails .Actions .ThemeActions .actionLabel {
+  width: auto;
+  border-bottom: none;
+}
+
+.groupDetail .MainDetails .ScreenshotBox {
+  width: 366px;
+  min-height: 220px;
+  background: transparent url(/images/group/screenshot_bg.png) top center no-repeat;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.groupDetail .MainDetails .ScreenshotBox .Screenshot {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.groupDetail .MainDetails .ScreenshotBox .Online {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.groupDetail .MainDetails .ScreenshotBox .Blurb {
+  font-size: 14px;
+  color: #88c3ed;
+  margin: 15px;
+}
+
+.groupDetail .ContentPanel {
+  margin-left: 5px;
+  width: 525px;
+}
+
+.groupDetail .ContentPanel .ContentPanelTitle {
+  width: 525px;
+  height: 25px; /* total image height = 30px*/
+  padding-top: 5px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #FFFFFF;
+  text-align: center;
+  background: transparent url(/images/group/content_title_bg.png) bottom center no-repeat;
+}
+
+.groupDetail .ContentPanel .ContentPanelContainer {
+  background-color: #FFFFFF;
+  min-height: 400px;
+}
+
+.groupDetail .ContentPanel .ContentPanelContent {
+  padding: 10px;
+}
+
+.groupDetail .ContentPanel .ContentBackButton {
+  text-align: right;
+  padding: 10px;
+}
+
+/* ------------------------------------
+   SINGLE GROUP DETAIL - TOP MEMBERS
+-------------------------------------*/
+
+.groupDetail .TopMembersPanel {
+  margin-left: 8px;
+  width: 140px;
+}
+
+.groupDetail .TopMembersPanel .Title {
+  background: transparent url(/images/group/sidebar_bg.png) bottom center no-repeat;
+  width: 140px;
+  height: 25px; /* total image height = 30px*/
+  padding-top: 5px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.groupDetail .TopMembersPanel .Content {
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+.groupDetail .TopMembersPanel .Content,
+.groupDetail .TopMembersPanel .Content a {
+  color: #174c74;
+  font-size: 12px;
+}
+
+.groupDetail .TopMembersPanel .SeeAll {
+  font-style: italic;
+  text-align: right;
+}
+
+.groupDetail .TopMembersPanel .Icon {
+  padding-right: 5px;
+  height: 35px;
+}
+
+.groupDetail .TopMembersPanel .Manager {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* ------------------------------------
+   SINGLE GROUP DETAIL - RECENT DISCUSSIONS
+-------------------------------------*/
+
+.groupDetail .groupDiscussionPanel {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+/** positioned above groupDiscussionPanel and first thread */
+.groupDetail .groupDiscussionPanel .RSS {
+  position: absolute;
+  left: 330px;
+  top: -20;
+  width: 180px;
+  text-align: right;
+}
+.groupDetail .groupDiscussionPanel .RSS .RssText {
+  width: 130px;
+  text-align: right;
+  padding-top: 3px;
+  padding-right: 5px;
+  float: left;
+}
+
+.groupDetail .groupDiscussionPanel .RSS a.RssText {
+  font-size: 11px;
+  color: #2a6891;
+}
+
+.groupDetail .groupDiscussionPanel .RSS img {
+  border: none;
+  width: 38px;
+  height: 38px;
+  float: right;
+}
+
+.groupDetail .groupDiscussionPanel .NoThreads {
+  color: #2a6891;
+  font-size: 15px;
+  margin: 11px;
+}
+
+.groupDetail .groupDiscussionPanel .NoThreads {
+  color: #2a6891;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.groupDetail .Thread,
+.groupDetail .Thread a {
+  font-size: 13px;
+  color: #2a6891;
+}
+
+.groupDetail .Thread .Date {
+  color: #78a3c5;
+  margin: 15px 0 0 0px;
+}
+
+.groupDetail .Thread .Subject {
+  float: left;
+  width: 500px;
+  padding: 2px 0 5px 0px;
+}
+.groupDetail .Thread .Subject a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.groupDetail .Thread .Text {
+  background: #dfedfa url(/images/group/thread_text_bg.png) no-repeat top left;
+  width: 450px;
+  min-height: 50px;
+  max-height: 700px;
+  clear: both;
+  margin: 5px 5px 5px 0;
+  padding: 10px 10px 10px 40px;
+  overflow: auto;
+}
+
+.groupDetail .Thread .PostedByIcon {
+  float: left;
+  margin: 0 5px 0 20px;
+}
+
+.groupDetail .Thread .PostedBy {
+  float: left;
+  margin: 7px 0 0 0;
+}
+
+.groupDetail .Thread .Replies {
+  float: right;
+  margin: 7px 10px 0 0;
+}
+
+.groupDetail .groupDiscussionPanel .Divider {
+  clear: both;
+  background: transparent url(/images/group/thread_divider_bg.png) repeat-x bottom left;
+  height: 15px;
+}
+
+/* ------------------------------------
+   GroupRoomsPanel
+-------------------------------------*/
+
+.groupDetail .RoomsTable {
+  width: 100%;
+}
+
+.groupDetail .RoomsTable .Room {
+  padding: 10px;
+  text-align: center;
+}
+
+.groupDetail .RoomsTable .Room .stars {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------------------------------
+   GALAXY GROUP LIST
+-------------------------------------*/
+
+.galaxyPanel {
+  background: #61abd0 url(/images/whirled/bg_gradient_long_blue.png) repeat-x;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.galaxyPanel .categoryLinks {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.galaxyPanel .Title {
+  background: transparent url(/images/whirled/orange_header.png) no-repeat scroll 0 0;
+  color: #FFFFFF;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  font-size: 26px;
+  height: 38px;
+  margin-bottom: 10px;
+  margin-left: 7px;
+  padding-top: 3px;
+  text-align: center;
+  width: 233px;
+}
+
+.galaxyPanel .SeeAll a {
+  color: #487999;
+}
+
+.galaxyPanel .IntroBlurb {
+  color: #FFFFFF;
+  padding: 10px 0 15px 15px;
+  width: 60%;
+  font-size: 13px;
+}
+.galaxyPanel .IntroBlurb a {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+.galaxyPanel .Search {
+  float: right;
+  margin: 0 10px 10px 0;
+  padding: 5px;
+  width: 30%;
+}
+
+.galaxyPanel .Search .SearchTitle {
+  color: #6B9FBF;
+  width: 200px;
+  padding: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.galaxyPanel .Search .gwt-TextBox {
+  margin-right: 5px;
+}
+
+.galaxyPanel .LeftColumn {
+  width: 130px;
+  margin: 0 10px 10px 10px;
+}
+
+.galaxyPanel .MyGroupsHeader, .galaxyPanel .OfficialGroupsHeader {
+  background: url(/images/group/galaxy_mygroups_title_bg.png) no-repeat;
+  width: 130px;
+  color: #FFFFFF;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  text-align: center;
+  font-weight :bold;
+}
+
+.galaxyPanel .MyGroupsHeader {
+  height: 25px; /* plus padding */
+  padding-top: 5px;
+  font-size: 17px;
+}
+
+.galaxyPanel .OfficialGroupsHeader {
+  height: 22px; /* plus padding */
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+.galaxyPanel .QuickGroups {
+  width: 120px; /* plus padding */
+  background-color: #FFFFFF;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.galaxyPanel .QuickGroups .Group {
+  margin: 5px 0;
+}
+
+.galaxyPanel .QuickGroups .Group .Name {
+  width: 90px;
+  margin-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.galaxyPanel .QuickGroups .Group .Discussions a {
+  margin-left: 5px;
+  color: #487999;
+}
+
+.galaxyPanel .QuickGroups .SeeAll {
+  display: block;
+  margin: 5px;
+  text-align: right;
+}
+
+.galaxyPanel .tagCloud {
+  margin-left: 25px;
+}
+
+.galaxyPanel .FeaturedHeader {
+  background: url(/images/group/galaxy_featured_title_bg.png) no-repeat;
+  color: #FFFFFF;
+  width: 528px;
+  height: 25px; /* plus padding */
+  padding-top: 5px;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+.galaxyPanel .GroupsList {
+  width: 528px;
+  background-color: #FFFFFF;
+}
+
+.galaxyPanel .GroupsList .SeeAll {
+  font-size: 12px;
+  text-align: right;
+}
+
+.galaxyPanel .GroupsList .Group {
+  border: 1px solid #CCCCCC;
+  width: 115px;
+  height: 100px;
+  font-size: 12px;
+}
+
+.galaxyPanel .GroupsList .Group .LogoAndName {
+  margin: 5px;
+}
+
+.galaxyPanel .GroupsList .Group .GroupName {
+  font-weight: bold;
+  height: 30px;
+  width: 60px;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.galaxyPanel .GroupsList .Group .MemberCount,
+.galaxyPanel .GroupsList .Group .InRooms,
+.galaxyPanel .GroupsList .Group .ThreadCount {
+  display: block;
+  margin: 0 0 5px 10px;
+}
+
+.galaxyPanel .GroupsList .Group .MemberCount,
+.galaxyPanel .GroupsList .Group .InRooms a,
+.galaxyPanel .GroupsList .Group .ThreadCount a {
+  color: #487999;
+}
+
+/** GroupList **/
+
+.groupList {
+  background: #61ABD0 url(/images/whirled/bg_gradient_long_blue.png) repeat-x;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.groupList .Navi {
+  margin: 5px auto;
+}
+
+.groupList .pagedGrid {
+  width: 680px;
+  margin: 0px auto;
+}
+
+.groupList .pagedGrid .miniNowLoadingWidget {
+  background-image: url(/images/ui/dot_bluematte.gif);
+}
+
+.groupList .pagedGrid .Header .TopLeft, .groupList .pagedGrid .Header .TopRight {
+  background-color: #0F4B6F;
+}
+
+.groupList .pagedGrid .Grid, .groupList .pagedGrid .Empty {
+  background: #FFFFFF;
+}
+
+.groupList .Group {
+  width: 100%;
+}
+
+.groupList .Group .Thumb {
+  width: 60px;
+}
+
+.groupList .Group .Name {
+  font-weight: bold;
+}
+
+.groupList .Group .Name, .groupList .Group .Blurb {
+  width: 500px;
+}
+
+/** CategoryLinks **/
+
+.categoryLinks {
+  color: #B4DDF9;
+  font-size: 12px;
+}
+
+.categoryLinks .CategoryTitle {
+  color: #FFFFFF;
+}
+
+.categoryLinks a {
+  color: #B4DDF9;
+  margin: 0 5px 0 5px;
+}
+
+.categoryLinks .SelectedLink a {
+  color: #FFFFFF;
+}
+
+/* ------------------------------------
+   MY GROUPS
+-------------------------------------*/
+
+.myGroups .Card {
+  width: 330px;
+  border: 1px solid #CCCCCC;
+  font-size: 12px;
+}
+
+.myGroups .Name {
+  font-size: 14px;
+}
+
+.myGroups .Thumb {
+  width: 60px;
+  text-align: center;
+}
+
+.myGroups .Bold {
+  font-weight: bold;
+}
+
+.myGroups .Thumb .thumbBox {
+  margin: 0px auto;
+}
+
+.myGroups .Blurb {
+  font-size: 12px;
+  max-height: 30px;
+  overflow: hidden;
+}
+
+.myGroups .Link {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ------------------------------------
+   EDIT GROUP
+-------------------------------------*/
+
+.groupEditor .tagDetailPanel {
+    padding: 10px;
+    border: solid black 1px;
+}
+
+.photoChoiceBox .Preview {
+  width: 40px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+/* ------------------------------------
+   PURCHASE THEME
+-------------------------------------*/
+
+.buyTheme {
+  padding: 4px;
+  width: 400px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buyTheme .upsell {
+  border-top: 1px solid black;
+  padding-top: 3px;
+  font-size: 12px;
+}
+
+/* ------------------------------------
+   EDIT THEME
+-------------------------------------*/
+
+.themeEditor .Header {
+  width: 100%;
+}
+
+.themeEditor .Header .Title, .themeEditor .Tip, .themeEditor .Tip a {
+  color: #154D72;
+}
+
+.themeEditor .Header .Title, .themeEditor .Tip {
+  border-bottom: 1px solid black;
+}
+
+.themeEditor .Title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.themeEditor .Tip {
+  font-size: 13px;
+}
+
+
+/* ------------------------------------
+   DISCUSSION THREADS - MESSAGES PANEL
+-------------------------------------*/
+
+.messagePanel .ToolBar {
+  float: right;
+}
+
+.messagePanel .ActionButtons {
+  float: right;
+  width: 75px;
+}
+
+/* ------------------------------------
+   MEDAL LIST PANEL
+-------------------------------------*/
+
+.medalListPanel {
+  background: #61ABD0 url(/images/whirled/bg_gradient_long_blue.png) repeat-x;
+  width: 100%;
+  min-height: 100%;
+}
+
+.medalListPanel, .medalListPanel table {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.medalListPanel .Header {
+  width: 100%;
+  height: 100px;
+}
+
+.medalListPanel .Header .Intro {
+  color: #c1e1f2;
+  width: 280px;
+}
+
+.medalListPanel .MedalTitle {
+  background: url(/images/me/contests_dots_bg.png) repeat-x left bottom;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #114E73;
+  width: 100%;
+}
+
+.medalListPanel .MedalTitle .AddMedal {
+  font-size: 14px;
+  padding-top: 2px;
+  text-align: right;
+}
+
+.medalListPanel .MedalList {
+  margin: 5px 15px;
+  width: 646px;
+}
+
+.medalListPanel .MedalOwnerWidget {
+  background-color: white;
+  width: 100%;
+}
+
+.medalListPanel .MedalOwnerWidget .OwnerWidgets {
+  position: relative;
+}
+
+.medalListPanel .MedalOwnerWidget .OwnerWidgets .OwnerWidget {
+  text-align: center;
+  width: 103px;
+  height: 90px;
+  padding-top: 9px;
+  font-size: 12px;
+  float: left;
+}
+
+.medalListPanel .MedalOwnerWidget .OwnerWidgets .OwnerLink {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.medalListPanel .MedalOwnerWidget .Hidden {
+  display: none;
+}
+
+.medalListPanel .MedalOwnerWidget .OwnerWidgets .SeeAllLink {
+  position: absolute;
+  bottom: -108px;
+  right: 6px;
+  font-size: 12px;
+}
+
+.medalListPanel .MedalOwnerWidget .OwnerWidgets .NotAwarded {
+  position: absolute;
+  left: 100px;
+  top: 45px;
+}
+
+.medalListPanel .MedalOwnerWidget .MedalWidget {
+  border: solid 1px #C9E9FE;
+  position: relative;
+  width: 200px;
+  height: 103px;
+  margin: 3px;
+}
+
+.medalListPanel .MedalOwnerWidget .MedalWidget .Icon {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+
+.medalListPanel .MedalOwnerWidget .MedalWidget .Name {
+  position: absolute;
+  left: 83px;
+  top: 3px;
+  width: 110px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1f4e78;
+  line-height: 13px;
+}
+
+.medalListPanel .MedalOwnerWidget .MedalWidget .Description {
+  position: absolute;
+  left: 83px;
+  top: 37px;
+  width: 110px;
+  text-align: center;
+  font-size: 11px;
+  color: #1f4e78;
+}
+
+.medalListPanel .MedalOwnerWidget .MedalWidget .Edit {
+  font-size: 12px;
+  top: 70px;
+  left: 5px;
+  position: absolute;
+}
+
+/* ------------------------------------
+   EDIT MEDAL PANEL
+-------------------------------------*/
+
+.editMedalPanel {
+  width: 505px;
+}
+
+.editMedalPanel .nowrapLabel {
+  font-size: 16px;
+}
+
+/* ------------------------------------
+   AWARD MEDALS PANEL
+-------------------------------------*/
+
+.awardMedalsPanel {
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.awardMedalsPanel table {
+  font-size: 16px;
+}
+
+.awardMedalsPanel .SearchBox {
+  padding-bottom: 15px;
+}

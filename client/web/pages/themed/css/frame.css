@@ -1,0 +1,498 @@
+/**
+ * CSS styles used by our top-level frame and header.
+ */
+
+/* StandardLayout styles */
+.standardPage {
+  background: #FFFFFF;
+}
+
+.framedPage {
+  background: #FFFFFF;
+}
+
+/* ------------------------------------
+   HEADER
+-------------------------------------*/
+
+.frameHeaderLogo {
+  width: 300px;
+  height: 50px;
+  background: url(/images/header/header_logo.png) no-repeat;
+}
+
+.frameHeaderNavi {
+  color: #000000;
+  height: 32px;
+}
+
+.frameHeaderStatus {
+  background: $backgroundColor;
+  color: #000000;
+  height: 50px;
+}
+
+.frameHeaderNavi {
+  background: transparent;
+}
+
+.frameHeaderStatus {
+  background: $backgroundColor;
+}
+
+.frameHeaderNavi .NaviButton {
+  font-size: 14px;
+  font-weight: bold;
+  background: url(/images/header/navi_button_bg.png) no-repeat;
+  padding-top: 10px;
+  margin-right: 5px;
+  text-align: center;
+  color: $navCol;
+  width: 71px;
+  height: 32px;
+}
+
+.frameHeaderNavi .NaviButton .actionLabel:hover {
+  text-decoration: none !important;
+}
+
+.frameHeaderNavi .NaviButton .actionLabel, .frameHeaderStatus .TopBoxLinks .actionLabel {
+  color: inherit;
+}
+
+.frameHeaderNavi .NaviButtonSelected {
+  background: url(/images/header/navi_button_selected_bg.png) no-repeat;
+  color: $navSelCol;
+}
+
+.frameHeaderStatus .Button {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  height: 30px;
+  color: white;
+}
+
+.frameHeaderStatus .LogonButton {
+  background: url(/images/header/logon_button.png) no-repeat bottom;
+  width: 104px;
+}
+
+.frameHeaderStatus .SignupButton {
+  background: url(/images/header/signup_button.png) no-repeat bottom;
+  width: 130px;
+}
+
+.frameHeaderStatus .LogonButton-up-hovering, .frameHeaderStatus .LogonButton-down-hovering,
+.frameHeaderStatus .SignupButton-up-hovering, .frameHeaderStatus .SignupButton-down-hovering {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------------------
+   HEADER STATUS PANEL
+-------------------------------------*/
+
+.statusPanel {
+  padding-right: 5px;
+  height: 100%;
+}
+
+.statusPanel .TopBoxLinks {
+  height: 26px;
+  font-size: 12px;
+  padding: 4px 5px 0 0;
+  color: $statusLinksCol;
+}
+
+.statusPanel .TopBoxLinks .Links {
+  white-space: nowrap;
+}
+
+.statusPanel .TopBoxLinks .Links div {
+  display: inline;
+}
+
+.statusPanel .TopBoxLinks a {
+  color: $statusLinksCol;
+}
+
+.statusPanel .TopBoxLinks .Mail {
+  font-weight: bold;
+}
+
+.statusPanel .TopBoxLinks .Mail img {
+  margin-right: 3px;
+  display: inline;
+}
+
+.statusPanel .TopBoxLinks .Spacer {
+  color: #c0c0c0;
+  margin: 0 5px;
+}
+
+.statusPanel .Levels {
+  color: $statusLevelsCol;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.statusPanel .Levels .Coins,
+.statusPanel .Levels .Bars,
+.statusPanel .Levels .Level {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.statusPanel .Levels .Coins:hover,
+.statusPanel .Levels .Bars:hover,
+.statusPanel .Levels .Level:hover {
+  text-decoration: underline;
+}
+
+.statusPanel .Levels .gwt-Label {
+  margin-left: 3px;
+  padding-top: 2px;
+}
+
+.statusPanel .Levels .BuyBars a {
+  font-size: 10px;
+  color: #99690c;
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+/* ------------------------------------
+   PAGE STYLES
+-------------------------------------*/
+
+.pageIFrame {
+  border: none;
+  background: #FFFFFF;
+}
+
+.pageTitle {
+  background: $titleBackgroundColor;
+  width: 700px;
+}
+
+.pageTitle .Title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 24px;
+  color: #4287ac;
+  white-space: nowrap;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.pageTitle .BackButton {
+  background-image: url(/images/ui/back.png);
+  width: 22px;
+  height: 18px;
+}
+
+.pageTitle .SubNavi {
+  font-size: 12px;
+  color: $navSelCol;
+  white-space: nowrap;
+  vertical-align: bottom;
+  text-align: right;
+  padding: 0 5px 3px 0;
+}
+
+.pageTitle .SubNavi a {
+  color: $navSelCol;
+}
+
+.pageTitle .SubNavi img, .pageTitle .SubNavi div {
+  display: inline;
+  vertical-align: bottom;
+}
+
+.pageTitle .Close {
+  padding-left: 8px;
+}
+
+/** Some adjustments when we're running in a framed layout. */
+.framedTitle {
+  width: 100%;
+}
+
+.framedTitle .Title {
+  height: 100%;
+}
+
+
+/** Facebook rooms, a bit bigger with a logo on the left */
+.fbRoomsTitle {
+  height: 50px;
+  background: #3B5998;
+}
+
+.fbRoomsTitle .Logo {
+  width: 80px;
+  height: 50px;
+  background: url($fblogoUrl) no-repeat 5px 3px;
+}
+
+.fbRoomsTitle .Title {
+  left: 85px;
+  top: 1px;
+  height: auto;
+  color: #fff;
+}
+
+.fbRoomsTitle .SubNavi {
+  left: 85px;
+  top: 27px;
+}
+
+.fbRoomsTitle .fbstatus {
+  right: 9px;
+  top: 11px;
+}
+
+.fbRoomsCloseBar {
+  width: 100%;
+  height: 24px;
+  background: white;
+  position: relative;
+}
+
+.fbRoomsCloseBar .Close {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+/** Facebook games title, a completely independently styled title bar. */
+.fbGamesTitle {
+  background: #3b5998;
+  width: 100%;
+}
+
+.fbGamesTitle[mode="normal"] {
+  height: 53px;
+}
+
+.fbGamesTitle[mode="challenge"] {
+  height: 66px;
+}
+
+.fbGamesTitle .Logo {
+  background: #3581B2;
+  width: 80px;
+  height: 53px;
+  background: url(/images/facebook/logo.png) no-repeat 5px 5px;
+}
+
+.fbGamesTitle .actionLabel, .fbGamesTitle .gwt-Hyperlink {
+  height: 30px;
+  top: 15px;
+}
+
+.fbGamesTitle .Games {
+  background: url(/images/facebook/games_button.png) no-repeat;
+  width: 79px;
+  left: 97px;
+}
+
+.fbGamesTitle .Games-up-hovering, .fbGamesTitle .Games-down-hovering {
+  background-position: 0 -30px;
+}
+
+.fbGamesTitle .Invite {
+  background: url(/images/facebook/invite_button.png) no-repeat;
+  width: 149px;
+  left: 180px;
+}
+
+.fbGamesTitle .Invite-up-hovering, .fbGamesTitle .Invite-down-hovering {
+  background-position: 0 -30px;
+}
+
+.fbGamesTitle .Fan {
+  background: url(/images/facebook/fan_button.png) no-repeat;
+  width: 142px;
+  left: 333px;
+}
+
+.fbGamesTitle .Fan-up-hovering, .fbGamesTitle .Fan-down-hovering {
+  background-position: 0 -30px;
+}
+
+.fbGamesTitle > .Trophies {
+  background: url(/images/facebook/trophies_button.png) no-repeat;
+  width: 104px;
+  left: 479px;
+}
+
+.fbGamesTitle .Trophies-up-hovering, .fbGamesTitle .Trophies-down-hovering {
+  background-position: 0 -30px;
+}
+
+.fbGamesTitle .Challenge {
+  top: 49px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.fbGamesTitle .Challenge a {
+  color: white;
+  font-weight: bold;
+}
+
+.fbGamesTitle .fbstatus {
+  right: 9px;
+  top: 13px;
+}
+
+/** Facebook status bar. */
+
+.fbstatus {
+  width: 156px;
+  height: 27px;
+  color: white;
+  font-size: 10px;
+}
+
+.fbstatus .Top {
+  width: 156px;
+  top: 1px;
+  height: 14px;
+  overflow: hidden;
+}
+
+.fbstatus .Top .Name {
+  left: 1px;
+  width: 55px;
+}
+
+.fbstatus .Top .Level {
+  left: 61px;
+  width: 52px;
+}
+
+.fbstatus .Top .Trophies {
+  right: 1px;
+  width: 24px;
+  text-align: right;
+}
+
+.fbstatus .Top .TrophyIcon {
+  background: transparent url(/images/facebook/trophy.png) no-repeat scroll 0 0;
+  left: 114px;
+  top: 0px;
+  width: 17px;
+  height: 11px;
+}
+
+.fbstatus .LevelProgress {
+  top: 15px;
+}
+
+/** Facebook progress bars */
+
+.fbprogressBar {
+  background: white url(/images/facebook/progress_bg.png) no-repeat;
+  width: 156px;
+  height: 14px;
+  color: black;
+  overflow: hidden;
+}
+
+.fbprogressBar .Meter {
+  background: orange url(/images/facebook/progress.png) no-repeat;
+  left: 1px;
+  top: 1px;
+  height: 12px;
+  width : 100%; /* gets overridden from code */
+}
+
+.fbprogressBar .Label, .fbprogressBar .Detail {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.fbprogressBar .Label {
+  left: 11px;
+  width: 73px;
+}
+
+.fbprogressBar .Detail {
+  right: 10px;
+  width: 80px;
+  text-align: right;
+}
+
+/** Home icon shown when we have no client */
+.noclient {
+  padding-top: 200px;
+}
+
+.noclient {
+  margin: auto;
+}
+
+.whirledMap {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  text-align: center;
+}
+
+/* ------------------------------------
+   BROWSER TEST DIALOG
+-------------------------------------*/
+
+.browserTest {
+  z-index: 10;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.browserTest .Message {
+  background: url(/images/landing/browser_test_bg.png) no-repeat top center;
+  width: 576px;
+  height: 138px; /* 218 minus 80 padding */
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 40px;
+  color: #000000;
+}
+
+.browserTest .Title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3e6f98;
+}
+
+.browserTest .actionLabel {
+  float: left;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+/* Random crap */
+
+.javaLoading {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 24px;
+}

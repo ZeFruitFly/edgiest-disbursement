@@ -1,0 +1,269 @@
+/**
+ * CSS styles for the (shared) Item interfaces.
+ */
+
+.itemThumbnail {
+  padding-left: 5px;
+  width: 80px;
+}
+
+.itemThumbnail .Image {
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.itemThumbnail .Text {
+  font-size: small;
+  text-align: center;
+}
+
+.ratingText {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.favorite {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.favorite .gwt-ToggleButton {
+  background: #FFFFFF;
+}
+
+.tagHistory {
+    font-size: 10px;
+    font-family: "Lucida Console", monospace;
+}
+
+.ratingHistory {
+    font-size: 10px;
+    font-family: "Lucida Console", monospace;
+}
+
+.tagCloud {
+  background: url(/images/item/top_tags.png) no-repeat top;
+  font-size: 12px;
+  width: 85px;
+  height: 200px;
+  padding-top: 36px;
+}
+
+.tagCloud .Link {
+  padding: 0px 8px 4px 8px;
+  max-width: 60px;
+  overflow: hidden;
+}
+
+.itemDetailPanel .headerBox .Title {
+  font-size: 18px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.itemDetailPanel .headerBox .Preview {
+  background-image: url(/images/item/detail_preview_bg.png);
+  padding: 10px;
+}
+
+.itemDetailPanel .headerBox .Rating {
+  padding: 5px;
+}
+
+.itemDetailPanel .headerBox .Rating table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.itemDetailPanel .Details {
+  width: 100%;
+  font-size: 14px;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.itemDetailPanel .listingMarkupHeader {
+  padding-bottom: 5px;
+}
+
+.itemDetailPanel .Description {
+  width: 100%;
+  color: #000000;
+}
+
+.itemDetailPanel .Extras {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.itemDetailPanel .remixLabel {
+  color: #56abd7;
+  font-weight: bold;
+  font-size: small;
+}
+
+/* TODO(bruno): Use an actionLabel instead */
+.LabelLink {
+  cursor: pointer;
+  text-decoration: none;
+  color: #216CA3;
+}
+.LabelLink:hover {
+  text-decoration: underline;
+}
+
+.tagDetailPanel {
+  font-size: 12px;
+}
+
+.tagDetailPanel .Tags {
+  padding-right: 10px;
+}
+
+.borderedDialog .tagDetailPanel .LabelLink {
+  cursor: pointer;
+  color: white;
+}
+
+.itemSearchBox {
+  width: 160px;
+  margin-right: 5px;
+}
+
+.creatorContents {
+  font-size: 9pt;
+  text-align: left;
+  font-weight: bold;
+}
+
+.itemActivator img {
+  display: inline;
+  vertical-align: bottom;
+}
+
+.itemActivator .Tip {
+  font-size: 10px;
+  color: #AABDC8;
+  padding-left: 5px;
+  display: inline;
+}
+
+/** Item listing popup styles */
+.doListItem {
+  margin: 10px;
+}
+
+.doListItem .Header {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.doListItem .Blurb {
+  vertical-align: top;
+  font-size: 13px;
+}
+
+.doListItem .Descrip {
+  padding: 5px;
+  border: 1px solid;
+  margin: 5px 0px;
+}
+
+/** ListingBox styles */
+.itemBox .Creator {
+  font-size: 12px;
+  padding-top: 2px;
+  color: #AABDC8;
+}
+
+.itemBox .Rating {
+  width: 60px;
+}
+
+.itemBox .Cost {
+  font-size: 12px;
+}
+
+.configLabel .inlineL {
+  vertical-align: top;
+}
+
+.remixButton {
+  background-image: url(/images/item/remix.png);
+  width: 38px;
+  height: 39px;
+}
+
+.remixButton-up-hovering {
+  background-image: url(/images/item/remix_over.png);
+}
+
+.remixButton-down-hovering {
+  background-image: url(/images/item/remix_down.png);
+}
+
+.configButton {
+  background-image: url(/images/item/config.png);
+  width: 38px;
+  height: 39px;
+}
+
+.configButton-up-hovering {
+  background-image: url(/images/item/config_over.png);
+}
+
+.configButton-down-hovering {
+  background-image: url(/images/item/config_down.png);
+}
+
+/* ------------------------------------
+   NAVIGATION BARS
+-------------------------------------*/
+
+.sideBar .NaviPanel {
+  margin-bottom: 20px;
+}
+
+.sideBar .NaviPanel .Cell {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline;
+  vertical-align: top;
+}
+
+.sideBar .NaviPanel .Selected {
+  color: #E78917;
+}
+
+.sideBar .NaviPanel .Cell a {
+  color: #FFFFFF;
+}
+
+.sideBar .NaviPanel .Cell a:hover {
+  color: #E78917;
+  text-decoration: none !important;
+}
+
+.sideBar .NaviPanel .SubCell {
+  font-weight: normal;
+}
+
+.sideBar .NaviPanel img {
+  display: inline;
+  margin: 2px 5px 0px 4px;
+}
+
+.sideBar .NaviPanel .Separator, .sideBar .NaviPanel .BlankSep {
+  width: 90px;
+  height: 1px;
+}
+
+.sideBar .NaviPanel .Separator {
+  background: #245774;
+}

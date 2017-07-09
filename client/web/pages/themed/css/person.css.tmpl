@@ -1,0 +1,356 @@
+/**
+ * Styles for Person components.
+ */
+
+/* ------------------------------------
+   FEED LIST
+-------------------------------------*/
+
+.FeedList {
+  margin-left: 5px;
+}
+
+.FeedWidget {
+  width: 600px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.FeedWidget + .Thread, .Thread + .FeedWidget {
+  margin-top: 15px;
+}
+
+.FeedWidget + .FeedWidget {
+  margin-top: 4px;
+}
+
+.FeedBasic {
+  margin-left: 37px;
+}
+
+.FeedWidget .IconContainer {
+  width: 32px;
+  height: 24px;
+}
+
+.FeedWidget .TextContainer {
+  margin-left: 0px;
+  padding-left: 5px;
+}
+
+.FeedWidget .TextContainer div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.FeedWidget .ThumbnailContainer {
+  height: 24px;
+  vertical-align: middle;
+}
+
+.FeedWidget .FeedIcon {
+  width: 30px;
+  height: 20px;
+}
+
+.FeedShowMore {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* ------------------------------------
+   GALLERY LIST & GALLERY VIEW PANEL
+-------------------------------------*/
+
+.galleryPanel {
+  padding: 10px;
+}
+
+.galleryPanel .Title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #247393;
+  font-size: 24px;
+}
+
+.galleryPanel .CreateButton {
+  margin: 10px 0 10px 530px;
+}
+
+.galleryViewPanel {
+  background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  height: 100%;
+}
+
+.SlideshowMode {
+  background-color: #000000;
+}
+
+.galleryViewPanel .Error {
+  color: #24598d;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.galleryViewPanel .GalleryViewContainer {
+  padding-top: 10px;
+}
+
+.galleryViewPanel .Actions {
+  color: #247393;
+  margin-left: 10px;
+}
+
+.galleryViewPanel .Thumbnail {
+  margin: 10px 0 0 8px;
+  float: left;
+}
+
+.galleryViewPanel .Thumbnail .Image img {
+  border: 1px solid #CCCCCC;
+}
+
+.galleryViewPanel .Thumbnail .Name {
+  color: #888888;
+  font-size: 11px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+
+.galleryPhotoPanel {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+}
+
+.galleryPhotoPanel .PhotoName {
+  color: #247393;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding: 5px 0px 0px 20px;
+}
+
+.galleryPhotoPanel .NameAndCreator {
+  margin: 0px 0px 10px 20px;
+  font-size: 12px;
+}
+
+.galleryPhotoPanel .NameAndCreator .GalleryName {
+  color: #247393;
+  font-weight: bold;
+}
+
+.galleryPhotoPanel .NameAndCreator .creator,
+.galleryPhotoPanel .NameAndCreator .creator a {
+  color: #7799A5;
+}
+
+.galleryPhotoPanel .LargePhoto {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+.galleryPhotoPanel .LargePhoto img {
+  border: 1px solid #CCCCCC;
+}
+
+.galleryPhotoPanel .Controls {
+  height: 30px;
+  margin: 10px 0 10px 20px;
+  color: #8B8B8B;
+}
+
+.galleryPhotoPanel .Controls a {
+  color: #8B8B8B;
+}
+
+
+/* ------------------------------------
+   GALLERY DETAILS PANEL (VIEW & EDIT)
+-------------------------------------*/
+
+.galleryDetailPanel {
+  background: url(/images/people/gallery_details_box.png) no-repeat;
+  width: 666px;
+  height: 99px;
+  margin: 0 0 10px 10px;
+}
+
+.galleryDetailPanel .GalleryThumbnail {
+  border: 2px solid #666666;
+  background-color: #FFFFFF;
+  text-align: center;
+  background-color: #E1E1E1;
+  color: #a8a8a8;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.galleryDetailPanel .Count {
+  color: #24598d;
+}
+
+.galleryDetailPanel .NameAndCreator {
+  width: 540px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.galleryDetailPanel .Name {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #247393;
+  font-size: 24px;
+}
+
+.galleryDetailPanel .creator,
+.galleryDetailPanel .creator a {
+  color: #154676;
+  font-size: 14px;
+}
+
+.galleryDetailPanel .Description {
+  color: #247393;
+  background-color: white;
+  width: 540px;
+  height: 40px;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+/* ------------------------------------
+   GALLERY EDIT PANEL
+-------------------------------------*/
+
+.galleryEditPanel {
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.galleryEditPanel .galleryDetailPanel .Name {
+  color: #24598d;
+  font-size: 14px;
+  width: 300px;
+  height: 25px;
+}
+
+.galleryEditPanel .galleryDetailPanel .Description {
+  background: none;
+}
+
+.galleryEditPanel .galleryDetailPanel .Description .gwt-TextArea {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #74a7c2;
+  font-size: 14px;
+  width: 440px;
+  height: 45px;
+}
+
+.galleryEditPanel .galleryDetailPanel .Description .tipLabel {
+  display: none;
+}
+
+.galleryEditPanel .Thumbnail {
+  margin: 10px 10px 0 0;
+  float: left;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  padding: 5px;
+  text-align: center;
+}
+
+.galleryEditPanel .Thumbnail .Name {
+  font-size: 9px;
+  width: 80px;
+  height: 15px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+
+.galleryEditPanel .dropPanel {
+  border-top: 3px solid #a3c4d5;
+  border-bottom: 3px solid #a3c4d5;
+  background: #d3e2e9;
+  width: 655px;
+  height: 220px;
+  padding: 5px 0 5px 30px;
+  overflow-y: scroll;
+}
+
+.galleryEditPanel .payload,
+.galleryEditPanel .payload  DIV {
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.galleryEditPanel .dropPanel .payload  IMG {
+  display: inline;
+  vertical-align: middle;
+}
+
+.galleryEditPanel .dragdrop-movable-panel DIV,
+.galleryEditPanel .dragdrop-movable-panel IMG {
+  filter: alpha(opacity = 60);
+  opacity: 0.6;
+}
+
+.galleryEditPanel .DragInstructions {
+  color: #74a7c2;
+  font-size: 14px;
+  width: 300px;
+  text-align: center;
+}
+
+.galleryEditPanel .DragInstructions .DragInstructions1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.galleryEditPanel .ThumbnailImage {
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  width: 90px;
+  height: 70px;
+}
+
+.galleryEditPanel .PhotoList {
+  width: 660px;
+  padding-left: 40px;
+  height: 360px;
+  background: #FFFFFF url(/images/people/gallery_photo_list_bg.png) repeat-x;
+}
+
+.galleryEditPanel .PhotoList .PrevNextButtons {
+  margin: 20px 0 15px 520px;
+}
+
+.galleryEditPanel .PhotoListTitle {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #5491bd;
+  font-size: 24px;
+}
+
+.galleryEditPanel .UploadPhotos {
+  color: #247393;
+}

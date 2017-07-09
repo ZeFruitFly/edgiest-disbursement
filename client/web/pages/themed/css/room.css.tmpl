@@ -1,0 +1,56 @@
+/**
+ * CSS styles for the Room interfaces.
+ */
+
+.sceneView {
+  position: relative;
+  width: 350px;
+  height: 200px;
+}
+
+.sceneView .liveButton {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(/images/ui/snapshot_live.png);
+  width: 113px;
+  height: 44px;
+}
+
+.sceneView .liveButton-up-hovering {
+  background-image: url(/images/ui/snapshot_live_over.png);
+}
+
+.sceneView .liveButton-down-hovering {
+  background-image: url(/images/ui/snapshot_live_down.png);
+}
+
+.sceneView .enterButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(/images/ui/snapshot_enter.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 350px;
+  height: 200px;
+}
+
+.sceneView .enterButton-up-hovering {
+  background-image: url(/images/ui/snapshot_enter_over.png);
+}
+
+.sceneView .enterButton-down-hovering {
+  background-image: url(/images/ui/snapshot_enter_down.png);
+}
+
+.Room .snapshot {
+  position: relative;
+}
+
+.Room .banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}

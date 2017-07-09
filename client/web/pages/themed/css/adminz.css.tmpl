@@ -1,0 +1,364 @@
+/**
+ * CSS styles for the Admin pages.
+ */
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dashboardPanel {
+  width: 100%;
+}
+
+.dashboardPanel .Title {
+  font-weight: bold;
+  text-align: left;
+}
+
+.dashboardPanel .gwt-Button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/** Configuration editor **/
+
+.configEditorPanel {
+    margin-top: 5px;
+}
+
+.configEditorTab {
+}
+
+.configEditorTable {
+
+}
+
+.configStringEditor {
+
+}
+
+.configCheckboxEditor {
+
+}
+
+/** Review Panel **/
+.reviewPanel {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.itemTransactions {
+  width: 100%;
+  font-size: 10px;
+}
+
+/*** Item transactions and review panel tables ***/
+.itemTransactions .Table .row1, .reviewPanel .Table .row1 {
+  background: #dbeffc;
+}
+
+.itemTransactions .Table .header, .reviewPanel .Table .header {
+  background: #ff992b;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.itemTransactions .Table .col2 /* Description */,
+.reviewPanel .Table .col1 /* Comment */ {
+  width: 50%;
+}
+
+.reviewPanel .Table .col1 {
+  vertical-align: top;
+}
+
+.reviewPanel .Table .Comment .CommentText {
+  border-top: thin dotted gray;
+  padding-top: 3px;
+}
+
+.reviewPanel .Table .Comment .EmptyCommentText {
+  font-style: italic;
+}
+
+.memberInfo .Name {
+  font-size: 18px;
+}
+
+.memberInfo .Label {
+  vertical-align: top;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.memberInfo .AffiliateOf .Grid .Cell {
+  font-size: 12px;
+}
+
+.CharityDescription {
+  width: 400px;
+}
+
+/* ------------------------------------
+   A/B Test List and Summary
+-------------------------------------*/
+
+.abTestList, .abTestSummary {
+  border: 10px white solid;
+}
+
+.abTestList .Tests {
+  border: solid black 1px;
+  width: 100%;
+}
+
+.abTestList .Tests .Header, .abTestSummary .Results .Header {
+  background-color: #C8DFED;
+}
+
+.abTestSummary .Info .Title {
+  font-weight: bold;
+}
+
+.abTestSummary .Results {
+  border: solid black 1px;
+}
+
+/* ------------------------------------
+   Cash out panel
+-------------------------------------*/
+
+.cashOutWidget {
+  padding: 5px 0px;
+  width: 100%;
+  font-size: 10pt;
+}
+
+.cashOutWidget .Name {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.cashOutWidget .PopupPanel {
+  font-size: 12pt;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.cashOutWidget .PopupPanel .PopupCell {
+  font-size: 12pt;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.cashOutWidget .PopupPanel .PopupButton {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.cashOutWidget .PopupPanel .Reason {
+  width: 450px;
+  height: 50px;
+}
+
+.cashOutWidget .Extras .sideButton {
+  width: 120px;
+}
+
+.requestedCashOutWidget {
+  height: 89px;
+}
+
+.charityCashOutWidget {
+  height: 60px;
+}
+
+/** PromotionEditor */
+.promoEditor {
+  border-top: 15px white solid;
+}
+
+.promoEditor .Promos .Header {
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.promoEditor .Promos {
+  font-size: 12px;
+}
+
+/* ------------------------------------
+   ContestsEditor
+-------------------------------------*/
+
+.contestsEditor {
+  border-top: 15px white solid;
+}
+
+.contestsEditor .Contests .Header {
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.contestsEditor .Contests {
+  font-size: 12px;
+}
+
+.contestsEditor .contestBox {
+  border: 3px solid #CCCCCC;
+}
+
+.contestsEditor .contestBox-past {
+  background-color: #61ABD0;
+}
+
+/* ------------------------------------
+   StatsPanel
+-------------------------------------*/
+
+.statsPanel {
+  padding: 5px;
+}
+
+.statsPanel .Controls {
+  padding: 5px;
+}
+
+.statsPanel .Controls div, .statsPanel .Controls select {
+  margin-right: 5px;
+}
+
+.panopticonStatus {
+  font-size: 10pt;
+}
+
+.panopticonStatus .header {
+  font-weight: bold;
+}
+
+.panopticonStatus .statusText {
+  white-space: pre !important;
+}
+
+/* ------------------------------------
+   BroadcastHistoryPanel
+-------------------------------------*/
+
+.broadcastHistory {
+  font-size: 12px;
+  border: 10px solid white;
+}
+
+.broadcastHistory .table .row1 {
+  background: #dbeffc;
+}
+
+.broadcastHistory .table .header {
+  background: #ff992b;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.broadcastHistory .table .col2 {
+  text-align: center;
+}
+
+.broadcastHistory .table .col3 {
+  width: 55%;
+  font-size: 10px;
+  vertical-align: center;
+}
+
+/* ------------------------------------
+   BureauInfoPanel
+-------------------------------------*/
+
+.bureauInfoPanel .title {
+  background: #D0D0D0;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.bureauInfoPanel .info {
+  font-size: 11px;
+  padding: 0px;
+}
+
+.bureauInfoPanel .info .header {
+  color: white;
+  background: #ff992b;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bureauInfoPanel .info .row1 {
+  background: #dbeffc;
+}
+
+.bureauInfoPanel .info .running {
+  color: #408040;
+}
+
+.bureauInfoPanel .info .stopped {
+  color: #804040;
+}
+
+/* ------------------------------------
+   EntrySummaryPanel
+-------------------------------------*/
+
+.entrySummary {
+  border: 10px solid white;
+}
+
+.entrySummary .Header {
+  font-weight: bold;
+}
+
+.entrySummary .AltRow {
+  background: #DDDDDD;
+}
+
+/* ------------------------------------
+   FacebookNotificationsPanel
+-------------------------------------*/
+
+.facebookNotifications {
+  font-size: 12px;
+}
+
+.facebookNotifications .Title {
+  padding: 20px 0px 5px 10px;
+  border-top: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.facebookNotifications .Edit, .facebookNotifications .Rotation {
+  margin-left: 10px;
+}
+
+.facebookNotifications .Row {
+  padding: 2px 0 7px 0;
+}
+
+.facebookNotifications .Row .gwt-Label {
+  padding: 3px;
+}
+
+.facebookNotifications div.View {
+  padding-left: 10px;
+}
+
+.facebookNotifications div.View table.View td {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+

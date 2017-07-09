@@ -1,0 +1,458 @@
+/**
+ * Styles for Landing pages.
+ */
+
+/* ------------------------------------
+   BLUE LANDING PAGE GENERAL DESIGN (SHARED)
+-------------------------------------*/
+
+/* Spans the entire width of the page */
+.BlueLandingPage {
+  background: #073448;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #083b51;
+}
+.BlueLandingPage a {
+  color: #083b51;
+}
+
+.BlueLandingPage .Header {
+  margin: 0 auto;
+}
+
+.BlueLandingPage p {
+  margin: 10px 20px;
+  line-height: 20px;
+}
+
+.BlueLandingPage ul,
+.BlueLandingPage ol {
+  line-height: 20px;
+}
+
+.BlueLandingPage h3 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  margin: 25px 0 10px 0;
+}
+
+.BlueLandingPage .Content {
+  background: url(/images/landing/blue_landing_content_bg.png) repeat-y top center;
+  width: 899px;
+  margin: 0 auto;
+  min-height: 100%;
+  padding-bottom: 20px;
+}
+
+.BlueLandingPage .Footer {
+  background-color: #76c4e7;
+  width: 100%;
+  height: 50px;
+  border-top: #caecfc 3px solid;
+  position: relative;
+}
+
+.BlueLandingPage .Footer .LandingCopyright {
+  margin: 10px auto;
+  background-color: transparent;
+}
+
+/* ------------------------------------
+   WIDE CONTENT BOX (SHARED)
+-------------------------------------*/
+
+.wideContentBox {
+  width: 809px;
+  margin: 15px auto;
+}
+
+.wideContentBox .BoxContent {
+  background: #FFFFFF url(/images/landing/wide_content_box_bg.png) repeat-y;
+  padding: 5px 20px;
+}
+
+.wideContentBox .BoxTop {
+  background: url(/images/landing/wide_content_box_top.png) no-repeat;
+  height: 12px;
+}
+
+.wideContentBox .BoxBottom {
+  background: url(/images/landing/wide_content_box_bottom.png) no-repeat;
+  height: 13px;
+}
+
+.wideContentBox .Title,
+.wideContentBox .TitleAlt {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  color: #ff752a;
+  margin: 0 0 10px 0;
+}
+
+.wideContentBox .TitleAlt {
+  color: #3595b7;
+}
+
+/* ------------------------------------
+   LANDING PAGE
+-------------------------------------*/
+
+.landing, .landing td {
+  font-size: 12px;
+}
+
+.landing .Explain .Subtitle {
+  white-space: nowrap;
+}
+
+.landing .Rightbits {
+  width: 305px;
+  margin-left: 20px;
+}
+
+.landing .Connect img { /*fbconnect*/
+  padding-left: 115px;
+  padding-top: 5px;
+}
+
+.landing .Title {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.landing .Subtitle {
+  font-size: 16px;
+}
+
+.landing .Video {
+  padding: 30px 0px 0px 35px;
+}
+
+.landing .Video .gwt-Image {
+  margin: 0px;
+}
+
+.landing .gwt-TextBox, .landing .gwt-PasswordTextBox, .landing .gwt-ListBox {
+  border: 1px solid #5C5D61;
+}
+
+/*.landing .gwt-TextBox, .landing .gwt-PasswordTextBox {
+  width: 175px;
+}*/
+
+.landing .actionLabel {
+  color: inherit;
+}
+
+/* ------------------------------------
+   LANDING COPYRIGHT (SHARED BY MULTIPLE PAGES)
+-------------------------------------*/
+
+.LandingCopyright {
+  width: 708px;
+  margin: auto;
+  height: 25px;
+  font-size: 14px;
+  text-align: center;
+  color: #226B98;
+  padding-top: 7px;
+  background-color: #3B85B2;
+}
+
+.LandingCopyright a {
+  color: #0F3F70;
+}
+
+/* ------------------------------------
+   CREATORS LANDING
+-------------------------------------*/
+
+.creatorsPanel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background: #073449 url(/images/landing/creators_bg.jpg) no-repeat top center;
+  width: 100%;
+  height: 1109px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.creatorsPanel .Content {
+  width: 620px;
+  height: 1109px;
+  margin: auto;
+}
+
+.creatorsPanel .LandingCopyright {
+  width: 620px;
+  text-align: center;
+}
+.creatorsPanel .LandingCopyright,
+.creatorsPanel .LandingCopyright a {
+  font-size: 14px;
+  color: #12718f;
+  background: none;
+  padding: 0;
+}
+
+.creatorsPanel .GetStartedButton {
+  width: 258px;
+  height: 114px;
+  border: none;
+  cursor: pointer;
+  background: transparent url(/images/landing/get_started_button.png);
+}
+.creatorsPanel .GetStartedButton-down-hovering {
+  background: transparent url(/images/landing/get_started_button_over.png);
+}
+.creatorsPanel .GetStartedButton-up-hovering {
+  background: transparent url(/images/landing/get_started_button_over.png);
+}
+
+/* ------------------------------------
+   FLASH GAME CONTEST LANDING PAGE
+-------------------------------------*/
+
+.gameContestPanel .Header {
+  width: 882px;
+  height: 241px;
+  background: url(/images/landing/contests/gamecon_header_bg.png) no-repeat;
+}
+
+/* ------------------------------------
+   DEVELOPER INTRO LANDING PAGE
+-------------------------------------*/
+
+.developerIntroPanel .Header {
+  width: 882px;
+  height: 241px;
+  background: url(/images/landing/devintro_header_bg.png) no-repeat;
+}
+
+/* ------------------------------------
+   DESIGN YOUR WHIRLED CONTEST LANDING
+-------------------------------------*/
+
+.designContestPanel {
+  background: #000000 url(/images/me/contests/contest_halloween09_header.jpg) center top no-repeat;
+}
+
+.designContestPanel, .contestOctPanel table {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.designContestPanel .Content {
+  position: relative;
+  background: none;
+  width: 750px;
+  padding-top: 370px;
+  margin: 0 auto;
+}
+
+.designContestPanel .Content .JoinButton {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.designContestPanel .Content .roundBox {
+  margin: 10px 0;
+}
+
+.designContestPanel .Content .roundBox .Center {
+  padding: 10px;
+}
+
+.designContestPanel .Content p {
+  margin: 10px 20px;
+  line-height: 20px;
+}
+
+.designContestPanel .Content .Title,
+.designContestPanel .Content .TitleAlt {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  color: #ff752a;
+  margin: 0 0 10px 0;
+}
+
+.designContestPanel .Content .TitleAlt {
+  color: #3595b7;
+}
+
+/* ------------------------------------
+   MONSTER AVE WHITE LANDING PAGE
+-------------------------------------*/
+
+.landingMonsterAve {
+  font-size: 12px;
+}
+
+.landingMonsterAve .Content {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.landingMonsterAve .Logo {
+  margin: 0 0 10px 10px;
+}
+
+.landingMonsterAve .LoginBox {
+  width: 498px;
+  height: 89px;
+  background: url(/images/landing/monsterave/login_bg.png) no-repeat top center;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+}
+
+.landingMonsterAve .Login {
+  margin: 20px 0 0 30px;
+}
+
+.landingMonsterAve .Login .Right {
+  text-align: right;
+}
+
+.landingMonsterAve .gwt-TextBox, .landingMonsterAve .gwt-PasswordTextBox, .landingMonsterAve .gwt-ListBox {
+  border: 1px solid #5C5D61;
+}
+
+.landingMonsterAve .gwt-TextBox, .landingMonsterAve .gwt-PasswordTextBox {
+  width: 175px;
+}
+
+.landingMonsterAve .LoginBox .orangeButton {
+  position: absolute;
+  top: 45px;
+  left: 290px;
+}
+
+.landingMonsterAve .LoginBox .ForgotPassword {
+  position: absolute;
+  left: 380px;
+  top: 55px;
+  color: #2c7da8;
+}
+
+.landingMonsterAve .Connect {
+  position: absolute;
+  width: 169px;
+  height: 30px;
+  top: 15px;
+  left: 290px;
+}
+
+.landingMonsterAve .Screenshot {
+  margin: 10px auto;
+}
+
+.landingMonsterAve .RegisterPlaceholder {
+  position: absolute;
+  top: 125px;
+  right: 30px;
+}
+
+.landingMonsterAve .register {
+  width: 278px;
+  height: 212px;
+  padding: 20px;
+  background: url(/images/landing/monsterave/register_bg.png) no-repeat top center;
+}
+
+.landingMonsterAve .register .Title {
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  font-size: 24px;
+}
+
+.landingMonsterAve .register .Subtitle {
+  font-size: 16px;
+}
+
+.landingMonsterAve .Footer {
+  margin: 20px;
+  font-size: 14px;
+}
+
+.landingMonsterAve .Footer .Copyright {
+  margin: 20px;
+  text-align: center;
+}
+
+/*
+ * DJ landing
+ */
+
+.landingDj {
+  font-size: 12px;
+  height: 100%;
+}
+
+.landingDj.light {
+  background: url("/images/landing/dj/background_white.jpg") no-repeat scroll center top white;
+  color: #202020;
+}
+
+.landingDj.dark {
+  background: url("/images/landing/dj/background.jpg") no-repeat scroll center top black;
+  color: #e0e0e0;
+}
+
+.landingDj .Content {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.landingDj .Footer {
+  margin-top: 210px;
+  font-size: 10px;
+}
+
+.landingDj .Footer .Copyright {
+  margin-top: 300px;
+  text-align: center;
+}
+
+.landingDj.light .Footer .Copyright {
+  color: #909090;
+}
+.landingDj.dark .Footer .Copyright {
+  color: #404040;
+}
+
+.landingDj .Connect {
+}
+
+.landingDj .Info {
+  margin: 40px auto 30px;
+  text-align: center;
+  width: 350px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.landingDj.light .Info {
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.landingDj .FacePile {
+  border: none;
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
